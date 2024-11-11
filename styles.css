@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f9f5f7;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#menu-btn,
+#order-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #33333;
+  cursor: pointer;
+}
+
+#logo {
+  font-size: 28px;
+  color: #020202;
+}
+
+.carousel {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.carousel-content {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.carousel-slide {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.scroll-arrow {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #02d8e9;
+  cursor: pointer;
+}
+
+.cookie-variants {
+  margin-top: 100vh;
+  padding: 50px;
+}
+
+.cookie-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.cookie-item {
+  width: 45%;
+  padding: 20px;
+  text-align: center;
+  background-color: #d1b49a;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.cookie-item:hover {
+  background-color: #02d8e9;
+  color: #fff;
+}
+
+footer {
+  background-color: #33333;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer-links button {
+  margin: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.menu-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2000;
+}
+
+.popup-content {
+  background: white;
+  width: 80%;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.popup-content button {
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: #33333;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.popup-content ul {
+  list-style-type: none;
+}
+
+.popup-content ul li {
+  margin: 20px 0;
+}
+
+#navbar.scrolled {
+  background-color: #02d8e9;
+}

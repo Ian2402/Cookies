@@ -1,0 +1,42 @@
+A. Color palette & Font-family- use the following color all throughout the website. Please make sure that it all work-out well. Choose a simple and round font-family.
+
+#02D8E9 aqua
+#D1B49A soft tan
+#F8B7D2 soft pink
+#33333 charcoal
+
+B. Carousel page- Make a 4-scrolls carousel page as the first page, make sure it covered the 7/8 part of the page and the 1/8 part should have arrows that say "Take a look, Mate!". The arrow should have function that will scroll down the page to next.
+
+C. Cookie Variants- Show each cookie variant on a page 2 at a time. Make sure that 2 variants are visible on a one full page scroll. Each variant should have hover color function whenever you hover the mouse to it.
+
+1. Semi-sweet chocomate
+2. Dark chocomate
+3. Berry Cheesemate
+4. Chocolate cupmate
+5. Red velvet chocomate
+6. Matecha Cookie
+7. Biscoff chocomate
+8. Rocky road cookiemate
+
+D. Navigation- The top-bar navigation should be transparent at first but the moment the page scroll, there should be solid background color.
+1. "Menu" button at top-most-left
+2. Logo/company name on top-center
+3. "order" button to top-most-right
+
+E. Menu- when "Menu" was clicked, pop-up navigation will show up that has the following content. Make sure that even the Menu is pop-out, you can still scroll on the website.
+1. Sign in
+2. Home
+3. Order
+4. Locations
+
+F. Footer- Put the following buttons on the footer. Arrange the buttons on linear path. Please add social media icon as buttons below such as Facebook, Instagram, TikTok, X, Youtube, LinkedIn.
+1. Company
+2. Order
+3. Our Story
+4. Rewards
+5. Nutrition & Allergy
+6. Support
+7. Collaborate
+8. Franchising
+
+G. At the most bottom, put the "SweetMates" text with a little bit big font-size with 2024 all rights reserved.
